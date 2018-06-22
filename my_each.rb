@@ -1,6 +1,7 @@
-def my_each(2)
-  collection = [1, 2, 3, 4]
-  my_each(collection) do |i|
-    puts i
+def my_each(array)
+  array = []
+  while array<array.length
+    yield array[i]
+    i+=1
   end
 end
